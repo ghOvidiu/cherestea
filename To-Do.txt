@@ -1,0 +1,5 @@
+- structura site:
+	- index
+	- contact
+	- produse
+	- 
