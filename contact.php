@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Produse cherestea - Chitila</title>
+    <title>Contact cherestea - Chitila</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -62,7 +62,7 @@
 <!-- Bun venit! -->
 <div class="jumbotron jumbotron-fluid" id="welcome_jumbo">
     <div class="container" id="welcome_message">
-        <h1 class="display-4" style="font-weight: bold; margin-top: 50px;">Pagina de produse</h1>
+        <h1 class="display-4" style="font-weight: bold; margin-top: 50px;">Pagina de contact</h1>
     </div>
 </div>
 
