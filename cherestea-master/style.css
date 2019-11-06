@@ -1,0 +1,198 @@
+.navbar {
+    background-color: transparent;
+    transition: background-color 1s ease 0s;
+    margin: auto;
+}
+.navbar .navbar-nav > li >.nav-link {
+    color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+ .navbar .navbar-nav > li > .nav-link:hover {
+    color:  brown;
+    background-color: rgba(255,255,255,0.6);
+    transition: border 0s;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar.solid {
+    background-color: rgba(255,255,255,0.8);
+    transition: background-color 0.7s ease 0s;
+}
+
+.navbar.solid .navbar-nav > li > .nav-link { 
+    border: none;
+    color: brown;
+    font-weight: bold;
+    transition: font-weight 0s;
+ }
+
+.navbar.solid .navbar-nav > li > .nav-link:hover {
+    color:  white;
+    background-color: brown;
+}
+
+.navbar-brand{
+    height: 50px;
+    width: 90px;
+}
+
+#welcome_jumbo a,
+#welcome_jumbo a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-nav li a {
+    display: block;
+    width: 100%;
+    transition: all 0.7s;
+}
+
+
+
+.nav-item {
+    margin-left: 10px;
+}
+
+#right-nav-item {
+    color: #ffffff;
+}
+.dropdown-item {
+    color: #818182;
+}
+
+#welcome_jumbo {
+    background-image: url("assets/carousel/6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+#welcome_message {
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.title {
+    margin: auto;
+    margin-bottom: 4%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#menu_area {
+    background: url("assets/brick-wallpaper.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+}
+
+#Meniu .title {
+    padding-top: 4%;
+    color: #ffffff;
+}
+
+#Rezervari .title {
+    padding-top: 4%;
+}
+
+#Recenzii .title {
+    padding-top: 4%;
+}
+
+.left-menu-content {
+    border-right: 10px solid #4e555b;
+}
+
+#photo_area {
+    background-image: url("assets/reservation2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.menu_item_header #title{
+    float:left;
+    width:75%;
+    overflow:hidden;
+}
+
+.menu_item_header #price{
+    width:25%;
+    margin-right: 0;
+    padding-right: 0;
+    overflow:hidden;
+}
+
+#first_left_li:hover {
+    display: block;
+    background-color:   #c69500;
+    color: #721c24;
+    transition: all 1s;
+}
+
+#first_left_li>p{
+    font-style: italic;
+}
+
+#review_area {
+    background: url("assets/carousel/5.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+	text-align: center;
+	color: white;
+}
+
+#review_area button {
+	margin: auto;
+	background-color: #823200;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	padding: 1%;
+}
+
+.three-reviews {
+	padding-bottom: 4%;
+}
+
+.review {
+    background-color: rgba(193, 66, 66, 0.48);
+	margin-right: 1%;
+	margin-left: 1%;
+	min-height: 100px;/*
+	-webkit-box-shadow: 0px 0px 49px 1px rgba(231,166,26,1);
+-moz-box-shadow: 0px 0px 49px 1px rgba(231,166,26,1);
+box-shadow: 0px 0px 49px 1px rgba(231,166,26,1);
+*/
+	border-radius: 20px;
+}
+
+.review-author {
+	text-align: right;
+	font-style: italic;
+	font-size: 18px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+
+.review-body {
+	padding-top: 3%;
+	font-size: 14px;
+	text-align: justify;
+	
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
